@@ -1,0 +1,16 @@
+{
+  "name": "harish",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "expect": "^24.8.0",
+    "mocha": "^6.1.4"
+  }
+}
