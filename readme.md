@@ -22,7 +22,7 @@ docker images
 
 //to run docker image
 
- docker run -it number /bin/bash
+ docker run  number
 
 //to stop docker container
 
