@@ -11,3 +11,5 @@ if (typeof input === "undefined") {
     op = search.searchInteger(process.argv[2]);
 }
 
+console.log(op)
+
