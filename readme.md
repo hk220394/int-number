@@ -29,4 +29,5 @@ docker images
 docker stop <CONTAINER_NAME>
 
 //to remove container 
+
 docker rm <CONTAINER_NAME>
