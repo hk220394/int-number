@@ -16,6 +16,12 @@ describe('1Z2 -> 12', function () {
     });
 });
 
+describe('zz12!!!! -> 12', function () {
+    it('should return 12', function () {
+        assert.equal(search.searchInteger('zz12!!!!'), 12);
+    });
+});
+
 describe('No Number', function () {
     it('should throw an error when number doesn\'t exist', function () {
         expect(() => search.searchInteger('z').to.throw('No Number'));
